@@ -1,0 +1,9 @@
+.app {
+  display: grid;
+  height: 983px;
+  padding: 24px;
+  grid-template-rows: repeat(2, minmax(0, 1fr));
+  grid-template-columns: repeat(1, minmax(0, 1fr));
+  align-items: start;
+  justify-items: start;
+}

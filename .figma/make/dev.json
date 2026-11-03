@@ -1,0 +1,6 @@
+{
+  // Reinstall dependencies when the manifest or lockfile changes.
+  "installOn": ["package.json", "pnpm-lock.yaml"],
+  // Restart Vite when its startup config changes.
+  "restartOn": ["vite.config.ts", "tsconfig.json"],
+}
