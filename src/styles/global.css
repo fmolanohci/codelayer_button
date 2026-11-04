@@ -1,0 +1,24 @@
+:root {
+  --color-page: #f4faff;
+  --color-surface: #fff;
+  --color-text: #24211e;
+  --color-text-muted: #7c7671;
+  --color-border: #dcd7d2;
+  --color-accent: #ff8426;
+  --color-accent-hover: #f47818;
+  --color-accent-active: #e96b0a;
+  --color-accent-soft: #fff7f0;
+  --color-accent-soft-active: #ffeadb;
+  --color-on-accent: #17120e;
+  --focus-ring: 2px solid var(--color-text);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background: var(--color-page);
+  font-family: "Segoe UI", sans-serif;
+}
